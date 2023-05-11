@@ -81,9 +81,9 @@ To run the project, execute the following command:
 
 👤 **Author2**
 
-- GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
-- Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
-- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-gyamfuaa-boateng/)
+- GitHub: [@zdnahom](https://github.com/zdnahom)
+- Twitter: [@nahomzerihun11](https://twitter.com/Nahomzerihun11)
+- LinkedIn: [nahomzd](https://www.linkedin.com/in/nahomzd/)
 
 
 
