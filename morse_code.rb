@@ -43,3 +43,5 @@ def decode(message)
   morse_words.each { |word| decoded_message = decoded_message + " " + decode_word(word) }
   return decoded_message
 end
+
+puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
