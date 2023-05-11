@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 MORSE_CODE = {
   '.-' => 'A',
   '-...' => 'B',
@@ -28,21 +26,20 @@ MORSE_CODE = {
   '-.--' => 'Y',
   '--..' => 'Z'
 }.freeze
+
 def decode_char(morse_char)
   MORSE_CODE[morse_char]
 end
 
 def decode_word(word)
   decoded_word = ''
-  morse_chars = word.split(' ')
-  morse_chars.each { |char| decoded_word += decode_char(char) }
+  word.split(' ').each { |char| decoded_word += decode_char(char) }
   decoded_word
 end
 
 def decode(message)
   decoded_message = ''
-  morse_words = message.split('   ')
-  morse_words.each { |word| decoded_message += " #{decode_word(word)}" }
+  message.split('   ').each { |word| decoded_message += " #{decode_word(word)}" }
   decoded_message
 end
 
