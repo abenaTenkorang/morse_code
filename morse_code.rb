@@ -35,9 +35,9 @@ def decode_word(word)
   morse_chars = word.split(' ')
   morse_chars.each { |char| decoded_word += decode_char(char) }
   return decoded_word
-  end
-  
-  def decode(message)
+end
+
+def decode(message)
   decoded_message = ''
   morse_words = message.split('   ')
   morse_words.each { |word| decoded_message = decoded_message + ' ' + decode_word(word) }
