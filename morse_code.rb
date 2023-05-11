@@ -33,7 +33,7 @@ end
 
 def decode_word(word)
   decoded_word = ''
-  word.split(' ').each { |char| decoded_word += decode_char(char) }
+  word.split.each { |char| decoded_word += decode_char(char) }
   decoded_word
 end
 
